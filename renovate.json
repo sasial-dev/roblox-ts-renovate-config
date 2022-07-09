@@ -4,6 +4,10 @@
     ],
     "packageRules": [
         {
+            "matchPackageNames": ["@rbxts/compiler-types"],
+            "versioning": "regex:v?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-types)?\\.(?<build>\\d+)?$"
+        },
+        {
             "groupName": "roblox-ts",
             "matchPackageNames": ["roblox-ts", "@rbxts/compiler-types"]
         }
