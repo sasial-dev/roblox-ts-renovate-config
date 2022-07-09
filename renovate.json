@@ -1,0 +1,11 @@
+{
+    "extends": [
+      "github>sasial-dev/aftman-renovate-config"
+    ],
+    "packageRules": [
+        {
+            "groupName": "roblox-ts",
+            "matchPackageNames": ["roblox-ts", "@rbxts/compiler-types"]
+        }
+    ]
+}
