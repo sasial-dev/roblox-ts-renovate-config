@@ -2,6 +2,7 @@
     "extends": [
       "github>sasial-dev/aftman-renovate-config"
     ],
+    "ignoreDeps": ["@rbxts/types"],
     "packageRules": [
         {
             "matchPackageNames": ["@rbxts/compiler-types"],
